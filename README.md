@@ -1,2 +1,1 @@
-# booleapruebatecnica
-Repositorio para almacenar la prueba técnica solicitada por Boolea
+Para completar esta prueba técnica hay que seguir las instrucciones que se han enviado en formato PDF.
