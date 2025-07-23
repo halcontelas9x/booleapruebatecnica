@@ -1,8 +1,41 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
-    <!-- Rellenar este manifest con los metadatos necesarios para el despliegue de la solución. -->
-    <!-- Nota: Se puede suponer que los datos previos ya están desplegados en el entorno. Es decir, no sería necesario indicar ningún medatado
-    que esté contenido en el manifest "base-prueba-tecnica.xml". Esto es así, siempre y cuando el metadato no se haya modificado del proyecto original.
-    Si se hubiera modificado, se tendría que indicar en este manifest.-->
+    <types>
+		<members>SupportRequestClosed</members>
+		<members>SupportRequestProcesed</members>
+		<name>CustomLabel</name>
+	</types>
+    <types>
+		<members>SupportRequestBatch</members>
+		<members>SupportRequestBatchTest</members>
+		<members>SupportRequestLwcController</members>
+		<members>SupportRequestLwcControllerDAO</members>
+        <members>SupportRequestLwcControllerDAOTest</members>
+        <members>SupportRequestLwcControllerTest</members>
+        <members>SupportRequestSchedule</members>
+        <members>SupportRequestScheduleTest</members>
+        <members>SupportRequestService</members>
+        <members>SupportRequestServiceTest</members>
+        <members>TriggerHandler</members>
+        <members>TriggerHandlerTest</members>
+        <members>SupportRequestTriggerHandler</members>
+        <name>ApexClass</name>
+	</types>
+    <types>
+        <members>SupportRequest__c-Solicitud soporte Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+		<members>*</members>
+		<name>ApexTrigger</name>
+	</types>
+    <types>
+        <members>*</members>
+        <name>LightningComponentBundle</name>
+    </types>
+    <types>
+		<members>SupportRequest__c.procesarRegistro</members>
+		<name>QuickAction</name>
+	</types>
     <version>63.0</version>
 </Package>
