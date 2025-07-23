@@ -27,7 +27,7 @@ También se ha creado un git para almacenar todo el código. Accesible desde est
 
 https://github.com/halcontelas9x/booleapruebatecnica
 
-Se ha creado una rama de develop donde [estan los commits del desarrollo](https://github.com/halcontelas9x/booleapruebatecnica/compare/main...feature/develop) y luego se ha mergeado con la rama [main](https://github.com/halcontelas9x/booleapruebatecnica) para dejarlo terminado.
+Se ha creado una rama de develop donde [estan los commits del desarrollo](https://github.com/halcontelas9x/booleapruebatecnica/activity?ref=feature/develop) y luego se ha mergeado con la rama [main](https://github.com/halcontelas9x/booleapruebatecnica) para dejarlo terminado.
   
 
 ## Pasos Despliegue
