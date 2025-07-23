@@ -28,13 +28,14 @@ También se ha creado un git para almacenar todo el código. Accesible desde est
 https://github.com/halcontelas9x/booleapruebatecnica
   
 
-## Pasos Acceso
+## Pasos Despliegue
 
-  
 
 Una vez desplegado el archivo [base-prueba-tecnica.xml](https://github.com/halcontelas9x/booleapruebatecnica/blob/main/manifest/base-prueba-tecnica.xml) en el nuevo playground, se ha de añadir al usuario administrador, en este caso Hector Martinez (Hmar), el permissionSet y el permissionSetGroup especificados en el fichero, SupportAdmin y Admins respectivamente. Con esto ya tenemos permisos para añadir la nueva tab a la app de Sales por ejemplo, que es donde está actualmente.
 
 El archivo [solucion-prueba-tecnica.xml](https://github.com/halcontelas9x/booleapruebatecnica/blob/main/manifest/solucion-prueba-tecnica.xml) lleva todo lo necesario para ser desplegado en una playground nueva o en una sandbox 
+
+Una vez desplegado el archivo de solucion en el playground, sera necesario acceder a la app de Sales y editar el menu para añadir el Navigation Item para poder acceder al Custom Object.
 
   
 
@@ -53,9 +54,6 @@ System.schedule(nombreJob, cron, new SupportRequestSchedule());
 
 ~~~
 
-  
-  
-  
 
 # Observaciones finales a la prueba
 
