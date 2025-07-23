@@ -18,6 +18,4 @@ public without sharing class SupportRequestTriggerHandler  extends TriggerHandle
     public override void beforeUpdate() {
         SupportRequestService.actualizarProcesarSupportRequests(newMap, oldMap);
     }
-
-
 }
