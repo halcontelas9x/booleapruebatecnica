@@ -2,6 +2,8 @@ public without sharing class SupportRequestService {
 
     // Constantes de estado y prioridad
     public static final String STATUS_TO_MANAGE = 'ToManage';
+    public static final String STATUS_PENDING_INTERNAL = 'PendingInternal';
+    public static final String STATUS_PENDING_CUSTOMER = 'PendingCustomer';
     public static final String PRIORITY_HIGH = 'High';
     public static final String PRIORITY_MEDIUM = 'Medium';
     public static final String PRIORITY_LOW = 'Low';
@@ -60,9 +62,11 @@ public without sharing class SupportRequestService {
                     // Verifica si el estado ha cambiado a "ToManage" para calcular la fecha de resolución
                     if (mNewMap.get(req.Id).Status__c != mOldMap.get(req.Id).Status__c && mNewMap.get(req.Id).Status__c == STATUS_TO_MANAGE) {
                         requests.add(req);
-                    } else if (mNewMap.get(req.Id).ExpectedResolutionDate__c != mOldMap.get(req.Id).ExpectedResolutionDate__c) { // Verifica si cambia la fecha de resolución
+                    } 
+                    // Aqui tenia algo de duda por que no sabia si se tenia que actualizar tabien la fecha si cambiaba la propia fecha de resolución o solo al cambiar el estado
+                    /* else if (mNewMap.get(req.Id).ExpectedResolutionDate__c != mOldMap.get(req.Id).ExpectedResolutionDate__c) { // Verifica si cambia la fecha de resolución
                         requests.add(req);
-                    }
+                    }*/
                 }
             }
 
