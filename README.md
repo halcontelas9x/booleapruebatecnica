@@ -1,10 +1,10 @@
 # Prueba Técnica Boolea!
 
-  
-
-![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://res.cloudinary.com/hy4kyit2a/f_auto,fl_lossy,q_70/learn/modules/trailhead-in-your-language/233ac5fec8fcb30f9eb6091afc2ee200_badge.png =75x)
+![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://res.cloudinary.com/hy4kyit2a/f_auto,fl_lossy,q_70/learn/modules/trailhead-in-your-language/233ac5fec8fcb30f9eb6091afc2ee200_badge.png)
 
   
+
+
 
 Bienvenido a este repositorio! En él, se encuentra la solución presentada por Héctor Martínez para la casuística presentada en el documento de [requisitos](https://github.com/halcontelas9x/booleapruebatecnica/blob/main/requisitos/Prueba%20te%CC%81cnica%20Senior%20-%20Requisitos.pdf) facilitado por la empresa Boolea.
 
